@@ -3,6 +3,11 @@ plugins {
     id("com.diffplug.spotless") version "6.19.0"
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
 dependencies {
     implementation("org.slf4j:slf4j-api:PRO")
     implementation("ch.qos.logback:logback-classic:PRO")
