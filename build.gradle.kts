@@ -1,6 +1,6 @@
 plugins {
-    id("io.freefair.lombok") version "8.3"
-    id("com.diffplug.spotless") version "6.19.0"
+    id("io.freefair.lombok") version "8.10"
+    id("com.diffplug.spotless") version "6.25.0"
     java
 }
 
