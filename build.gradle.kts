@@ -16,7 +16,7 @@ java {
 
 dependencies {
     implementation("org.slf4j:slf4j-api:2.0.16")
-    implementation("ch.qos.logback:logback-classic:1.5.8")
+    implementation("org.slf4j:slf4j-simple:2.0.16")
     implementation("org.springframework.boot:spring-boot-starter-web:2.7.16")
     implementation("org.springframework:spring-core:5.3.30")
     implementation("org.springframework:spring-beans:5.3.30")
